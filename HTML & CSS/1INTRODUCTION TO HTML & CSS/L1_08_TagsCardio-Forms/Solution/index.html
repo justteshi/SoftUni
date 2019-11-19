@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+
+
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <label>First Name </label>
+            <input type="text"><br>
+            
+            <label>Last Name </label>
+            <input type="text"><br>
+            Male <input type="radio"> Female <input type="radio"> Other <input type="radio"><br>
+            Preferred contact method: Email <input type="radio"> Phone <input type="radio"><br>
+            Email <input type="email" placeholder="your@mail.com"><br>
+            Phone <input type="tel" placeholder="+359898752365"><br>
+            Town <select>
+                <option>Varna</option>
+                <option>Plovdiv</option>
+                <option>Burgas</option>
+                <option>Sofia</option>
+                <option>Pleven</option>
+            </select><br>
+            Age <input type="number" max="70" min="18"><br>
+            Programming language <input type="text" list="languages">
+            <datalist id="languages">
+                <option>Java</option>
+                <option>PHP</option>
+                <option>C#</option>
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>Ruby</option>
+                <option>Other</option>
+                
+            </datalist><br>
+            <textarea placeholder="More information..." rows="5" cols="20"></textarea><br>
+            <input type="checkbox">
+            I agree the Terms and Conditions <br>
+            <button type="submit">Send</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
