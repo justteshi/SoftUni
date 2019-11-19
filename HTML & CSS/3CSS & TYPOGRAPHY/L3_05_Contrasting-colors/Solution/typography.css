@@ -1,0 +1,18 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1{
+    font: inherit;
+    font-family: Georgia, serif;
+    font-size: 2em;
+}
+article{
+    background: rgb(51, 102, 153);
+    border: 1px solid black;
+    border-radius: 1rem;
+    color: white;
+    padding: 1.5em 2em;
+    margin: 5em;
+}
